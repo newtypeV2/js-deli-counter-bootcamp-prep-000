@@ -4,7 +4,7 @@ function takeANumber(Line, newCustomer){
   //console.log("Welcome, " + newCustomer + ". You are number " + Line.push(newCustomer) + " in line.")
   Line.push(newCustomer)
   console.log(`Welcome, ${newCustomer}. You are number ${Line.length} in line.`)
-  return `Welcome, ${newCustomer}. Your ticket Number isr ${ticketNu} in line.`
+  return `Welcome, ${newCustomer}. Your ticket Number isr ${ticketNumber} in line.`
   }
 
 function nowServing(Line){
