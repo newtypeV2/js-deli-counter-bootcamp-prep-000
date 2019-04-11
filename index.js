@@ -1,9 +1,9 @@
-ticketNumber = 1
+ticketNumber = 0
 
 function takeANumber(Line, newCustomer){
   Line.push(newCustomer)
-  ticketNumber+=1
-  return `Welcome, ${newCustomer}. Your ticket Number is ${ticketNumber-1} in line.`
+  incrementTicketNumber()
+  return `Welcome, ${newCustomer}. Your ticket Number is ${ticketNumber} in line.`
   }
 
 function nowServing(Line){
@@ -31,6 +31,10 @@ var CurLine = []
 }
 }
 
+
+function incrementTicketNumber(){
+  ticketNumber+=1
+}
 
 // testing
 
