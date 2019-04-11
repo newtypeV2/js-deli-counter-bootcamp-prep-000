@@ -1,3 +1,5 @@
+ticketNumber = 1
+
 function takeANumber(Line, newCustomer){
   //console.log("Welcome, " + newCustomer + ". You are number " + Line.push(newCustomer) + " in line.")
   Line.push(newCustomer)
