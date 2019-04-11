@@ -1,10 +1,13 @@
-ticketNumber =
+ticketNumber = 1
 
 function takeANumber(Line, newCustomer){
   //console.log("Welcome, " + newCustomer + ". You are number " + Line.push(newCustomer) + " in line.")
   Line.push(newCustomer)
+  var insdieTicketNumber = ticketNumber
   console.log(`Welcome, ${newCustomer}. You are number ${Line.length} in line.`)
-  return `Welcome, ${newCustomer}. Your ticket Number isr ${ticketNumber} in line.`
+  ticketNumber+=1
+  return `Welcome, ${newCustomer}. Your ticket Number is ${insideticketNumber} in line.`
+  
   }
 
 function nowServing(Line){
